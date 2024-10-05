@@ -99,10 +99,13 @@ main {
 
 .project {
   display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  margin: 1em 0 2em 0;
-
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: #aec6cf;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
   /* Debug border */
   /* border: 2px solid blue; */
 }
@@ -115,11 +118,9 @@ main {
 }
 
 .project-image {
-  object-fit: cover;
-  width: 100%;
-  height: 500px;
-  flex-basis: 50px;
-  flex-grow: 2;
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
 
   /* Debug border */
   /* border: 2px solid black; */
